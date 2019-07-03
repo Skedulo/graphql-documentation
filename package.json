@@ -1,0 +1,25 @@
+{
+  "name": "graphql-documentation",
+  "version": "1.0.0",
+  "description": "GraphQL Documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skedulo/graphql-documentation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skedulo/graphql-documentation/issues"
+  },
+  "homepage": "https://github.com/Skedulo/graphql-documentation#readme",
+  "graphdoc": {
+    "schemaFile":"./graphql.json",
+    "endpoint": "http://localhost:8080/graphql",
+    "output": "./gh-pages/graphql-documentation",
+    "baseUrl": "./"
+  }
+}
