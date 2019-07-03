@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Skedulo/graphql-documentation#readme",
   "graphdoc": {
+    "logo": "<a href=\"/skedulo\" target=\"skedulo.com\"><img src= \"https://github.com/Skedulo/skedulo_api/blob/master/Skedulo_Logo_Small_Blue.jpg\" /></a>", 
     "schemaFile":"./graphql.json",
     "output": "./docs",
     "baseUrl": "./"
