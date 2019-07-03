@@ -19,7 +19,7 @@
   "graphdoc": {
     "schemaFile":"./graphql.json",
     "endpoint": "http://localhost:8080/graphql",
-    "output": "./gh-pages/graphql-documentation",
+    "output": "./docs",
     "baseUrl": "./"
   }
 }
