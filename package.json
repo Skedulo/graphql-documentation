@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Skedulo/graphql-documentation/issues"
   },
-  "homepage": "https://github.com/Skedulo/graphql-documentation#readme",
+  "homepage": "https://github.com/Skedulo/graphql-documentation",
   "graphdoc": {
     "logo": "<a href=\"https://developer.skedulo.com/docs\"><img src = \"https://github.com/Skedulo/graphql-documentation/blob/master/Skedulo_Logo_Small_Blue.png?raw=true\"/></a>",
     "favicon": "<img src = \"https://github.com/Skedulo/graphql-documentation/blob/master/favicon.png?raw=true\"/>",
