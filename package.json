@@ -2,7 +2,7 @@
   "name": "graphql-documentation",
   "version": "1.0.0",
   "description": "Skedulo GraphQL Documentation",
-  "homepage": "https://developer.skedulo.com",
+  "homepage": "https://github.com/Skedulo/graphql-documentation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,11 +16,10 @@
   "bugs": {
     "url": "https://github.com/Skedulo/graphql-documentation/issues"
   },
-  "homepage": "https://github.com/Skedulo/graphql-documentation",
   "graphdoc": {
     "logo": "<a href=\"https://developer.skedulo.com/docs\"><img src = \"https://github.com/Skedulo/graphql-documentation/blob/master/Skedulo_Logo_Small_Blue.png?raw=true\"/></a>",
     "favicon": "<img src = \"https://github.com/Skedulo/graphql-documentation/blob/master/favicon.png?raw=true\"/>",
-    "schemaFile":"./graphql.json",
+    "schemaFile": "./graphql.json",
     "output": "./docs",
     "baseUrl": "./"
   }
