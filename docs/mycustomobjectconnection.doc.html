@@ -1,10 +1,4 @@
----
-title: GraphQL Schema Documentation 
-menu:
-  main:
-    weight: 30
----
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,7 +7,7 @@ menu:
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="./styles/graphdoc.css" />
-    <title>Graphql schema documentation</title>
+    <title>MyCustomObjectConnection</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet"><link type="text/css" rel="stylesheet" href="./assets/code.css" /><link type="text/css" rel="stylesheet" href="./assets/require-by.css" />
 </head>
 <body class="slds-scrollable--y">
@@ -189,6 +183,11 @@ menu:
         <li  title="EQLOrderByClauseLocations">
             <a href="eqlorderbyclauselocations.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 EQLOrderByClauseLocations
+            </a>
+        </li>
+        <li  title="EQLOrderByClauseMyCustomObject">
+            <a href="eqlorderbyclausemycustomobject.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                EQLOrderByClauseMyCustomObject
             </a>
         </li>
         <li  title="EQLOrderByClauseProducts">
@@ -394,6 +393,11 @@ menu:
         <li  title="EQLQueryFilterLocations">
             <a href="eqlqueryfilterlocations.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 EQLQueryFilterLocations
+            </a>
+        </li>
+        <li  title="EQLQueryFilterMyCustomObject">
+            <a href="eqlqueryfiltermycustomobject.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                EQLQueryFilterMyCustomObject
             </a>
         </li>
         <li  title="EQLQueryFilterProducts">
@@ -679,6 +683,16 @@ menu:
         <li  title="SchemaSubscriptionNotification">
             <a href="schemasubscriptionnotification.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 SchemaSubscriptionNotification
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
+    <h4 class="slds-text-title--caps slds-p-around--medium">Unions</h4>
+    <ul>
+        <li  title="NotificationsObject">
+            <a href="notificationsobject.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                NotificationsObject
             </a>
         </li>
     </ul>
@@ -999,6 +1013,26 @@ menu:
         <li  title="LocationsEdge">
             <a href="locationsedge.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 LocationsEdge
+            </a>
+        </li>
+        <li  title="MyCustomObject">
+            <a href="mycustomobject.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                MyCustomObject
+            </a>
+        </li>
+        <li class="slds-is-active" title="MyCustomObjectConnection">
+            <a href="mycustomobjectconnection.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                MyCustomObjectConnection
+            </a>
+        </li>
+        <li  title="MyCustomObjectEdge">
+            <a href="mycustomobjectedge.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                MyCustomObjectEdge
+            </a>
+        </li>
+        <li  title="Notifications">
+            <a href="notifications.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Notifications
             </a>
         </li>
         <li  title="PageInfo">
@@ -1521,6 +1555,11 @@ menu:
                 NewLocations
             </a>
         </li>
+        <li  title="NewMyCustomObject">
+            <a href="newmycustomobject.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                NewMyCustomObject
+            </a>
+        </li>
         <li  title="NewProducts">
             <a href="newproducts.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 NewProducts
@@ -1719,6 +1758,11 @@ menu:
         <li  title="UpdateLocations">
             <a href="updatelocations.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 UpdateLocations
+            </a>
+        </li>
+        <li  title="UpdateMyCustomObject">
+            <a href="updatemycustomobject.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                UpdateMyCustomObject
             </a>
         </li>
         <li  title="UpdateProducts">
@@ -1921,6 +1965,11 @@ menu:
                 UpsertLocations
             </a>
         </li>
+        <li  title="UpsertMyCustomObject">
+            <a href="upsertmycustomobject.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                UpsertMyCustomObject
+            </a>
+        </li>
         <li  title="UpsertProducts">
             <a href="upsertproducts.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 UpsertProducts
@@ -2051,9 +2100,9 @@ menu:
         </div>
     </div>
     <div class="container">
-        
-        <h1 class="slds-text-heading--large">Graphql schema documentation</h1>
-        <div class="slds-text-body--regular">Skedulo GraphQL Documentation</div>
+        <p class="slds-text-title--caps slds-text-color--weak">OBJECT</p>
+        <h1 class="slds-text-heading--large">MyCustomObjectConnection</h1>
+        <div class="slds-text-body--regular"></div>
     </div>
 </section>
 <section>
@@ -2064,7 +2113,18 @@ menu:
             </a>
             GraphQL Schema definition
         </h2>
-        <code class="highlight"><ul class="code" style="padding-left:28px"><li><span class="keyword operator ts">schema</span> {</li><li></li><li><span class="tab"><span class="meta">query</span>: <a class="support type" href="query.doc.html">Query</a></span></li><li></li><li><span class="tab"><span class="meta">mutation</span>: <a class="support type" href="mutation.doc.html">Mutation</a></span></li><li></li><li><span class="tab"><span class="meta">subscription</span>: <a class="support type" href="subscription.doc.html">Subscription</a></span></li><li>}</li></ul></code>
+        <code class="highlight"><ul class="code" style="padding-left:28px"><li><span class="keyword operator ts">type</span> <span class="identifier">MyCustomObjectConnection</span> {</li><li></li><li><span class="tab"><span class="meta">edges</span>: [<a class="support type" href="mycustomobjectedge.doc.html">MyCustomObjectEdge</a>!]! </span></li><li></li><li><span class="tab"><span class="meta">pageInfo</span>: <a class="support type" href="pageinfo.doc.html">PageInfo</a>! </span></li><li></li><li><span class="tab"><span class="meta">totalCount</span>: <a class="support type" href="int.doc.html">Int</a>! </span></li><li>}</li></ul></code>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <h2 id="require-by" class="graphdoc-section__title slds-text-heading--medium slds-m-top--small">
+            <a href="#require-by">
+                <i class="material-icons">link</i>
+            </a>
+            Require by
+        </h2>
+        <ul class="require-by"><li><a href="query.doc.html" title="Query - ">Query<em>null</em></a><li></ul>
     </div>
 </section>
 <footer>
