@@ -1965,15 +1965,10 @@
               "name": "Type",
               "description": null,
               "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "description": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "JobTimeConstraintType",
-                  "description": "Valid values are (SLA, Timeslot)",
-                  "ofType": null
-                }
+                "kind": "SCALAR",
+                "name": "JobTimeConstraintType",
+                "description": "Valid values are (SLA, Timeslot)",
+                "ofType": null
               },
               "defaultValue": null
             }
@@ -11523,6 +11518,42 @@
               "deprecationReason": null
             },
             {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "End",
               "description": null,
               "args": [],
@@ -11562,6 +11593,42 @@
                 "name": "BigDecimal",
                 "description": "The `BigDecimal` scalar type represents signed fractional values with arbitrary precision.",
                 "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
               },
               "isDeprecated": false,
               "deprecationReason": null
@@ -11710,6 +11777,24 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "CreatedDate",
               "description": null,
               "args": [],
@@ -11757,6 +11842,42 @@
                   "kind": "SCALAR",
                   "name": "Boolean",
                   "description": "The `Boolean` scalar type represents `true` or `false`.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -12200,6 +12321,42 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "DeclineDescription",
               "description": null,
               "args": [],
@@ -12393,6 +12550,42 @@
                   "kind": "SCALAR",
                   "name": "ID",
                   "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -14056,6 +14249,42 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "DisplayName",
               "description": null,
               "args": [],
@@ -14116,6 +14345,42 @@
                   "kind": "SCALAR",
                   "name": "Boolean",
                   "description": "The `Boolean` scalar type represents `true` or `false`.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -14196,7 +14461,7 @@
           "description": null,
           "fields": [
             {
-              "name": "schemaAvailabilities",
+              "name": "schemaActivities",
               "description": null,
               "args": [
                 {
@@ -14225,8 +14490,8 @@
                   "description": null,
                   "type": {
                     "kind": "SCALAR",
-                    "name": "EQLRecordFilterAvailabilities",
-                    "description": "EQL record filter for object type Availabilities",
+                    "name": "EQLRecordFilterActivities",
+                    "description": "EQL record filter for object type Activities",
                     "ofType": null
                   },
                   "defaultValue": null
@@ -14236,8 +14501,8 @@
                   "description": null,
                   "type": {
                     "kind": "SCALAR",
-                    "name": "EQLRecordChangeFilterAvailabilities",
-                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Availabilities along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+                    "name": "EQLRecordChangeFilterActivities",
+                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Activities along with the `Operation`. This allows events to only be emitted if a certain field has change.",
                     "ofType": null
                   },
                   "defaultValue": null
@@ -14249,7 +14514,7 @@
                 "description": null,
                 "ofType": {
                   "kind": "OBJECT",
-                  "name": "SchemaSubscriptionNotificationAvailabilities",
+                  "name": "SchemaSubscriptionNotificationActivities",
                   "description": null,
                   "ofType": null
                 }
@@ -14258,7 +14523,7 @@
               "deprecationReason": null
             },
             {
-              "name": "schemaShifts",
+              "name": "schemaJobAllocations",
               "description": null,
               "args": [
                 {
@@ -14287,8 +14552,8 @@
                   "description": null,
                   "type": {
                     "kind": "SCALAR",
-                    "name": "EQLRecordFilterShifts",
-                    "description": "EQL record filter for object type Shifts",
+                    "name": "EQLRecordFilterJobAllocations",
+                    "description": "EQL record filter for object type JobAllocations",
                     "ofType": null
                   },
                   "defaultValue": null
@@ -14298,8 +14563,8 @@
                   "description": null,
                   "type": {
                     "kind": "SCALAR",
-                    "name": "EQLRecordChangeFilterShifts",
-                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Shifts along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+                    "name": "EQLRecordChangeFilterJobAllocations",
+                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type JobAllocations along with the `Operation`. This allows events to only be emitted if a certain field has change.",
                     "ofType": null
                   },
                   "defaultValue": null
@@ -14311,7 +14576,7 @@
                 "description": null,
                 "ofType": {
                   "kind": "OBJECT",
-                  "name": "SchemaSubscriptionNotificationShifts",
+                  "name": "SchemaSubscriptionNotificationJobAllocations",
                   "description": null,
                   "ofType": null
                 }
@@ -14444,6 +14709,68 @@
               "deprecationReason": null
             },
             {
+              "name": "schemaAvailabilities",
+              "description": null,
+              "args": [
+                {
+                  "name": "operation",
+                  "description": null,
+                  "type": {
+                    "kind": "LIST",
+                    "name": null,
+                    "description": null,
+                    "ofType": {
+                      "kind": "NON_NULL",
+                      "name": null,
+                      "description": null,
+                      "ofType": {
+                        "kind": "ENUM",
+                        "name": "SchemaSubscriptionOp",
+                        "description": null,
+                        "ofType": null
+                      }
+                    }
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "filter",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLRecordFilterAvailabilities",
+                    "description": "EQL record filter for object type Availabilities",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "extendedFilter",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLRecordChangeFilterAvailabilities",
+                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Availabilities along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                }
+              ],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "SchemaSubscriptionNotificationAvailabilities",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "schemaJobs",
               "description": null,
               "args": [
@@ -14506,7 +14833,7 @@
               "deprecationReason": null
             },
             {
-              "name": "schemaJobAllocations",
+              "name": "schemaShifts",
               "description": null,
               "args": [
                 {
@@ -14535,8 +14862,8 @@
                   "description": null,
                   "type": {
                     "kind": "SCALAR",
-                    "name": "EQLRecordFilterJobAllocations",
-                    "description": "EQL record filter for object type JobAllocations",
+                    "name": "EQLRecordFilterShifts",
+                    "description": "EQL record filter for object type Shifts",
                     "ofType": null
                   },
                   "defaultValue": null
@@ -14546,8 +14873,8 @@
                   "description": null,
                   "type": {
                     "kind": "SCALAR",
-                    "name": "EQLRecordChangeFilterJobAllocations",
-                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type JobAllocations along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+                    "name": "EQLRecordChangeFilterShifts",
+                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Shifts along with the `Operation`. This allows events to only be emitted if a certain field has change.",
                     "ofType": null
                   },
                   "defaultValue": null
@@ -14559,69 +14886,7 @@
                 "description": null,
                 "ofType": {
                   "kind": "OBJECT",
-                  "name": "SchemaSubscriptionNotificationJobAllocations",
-                  "description": null,
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "schemaActivities",
-              "description": null,
-              "args": [
-                {
-                  "name": "operation",
-                  "description": null,
-                  "type": {
-                    "kind": "LIST",
-                    "name": null,
-                    "description": null,
-                    "ofType": {
-                      "kind": "NON_NULL",
-                      "name": null,
-                      "description": null,
-                      "ofType": {
-                        "kind": "ENUM",
-                        "name": "SchemaSubscriptionOp",
-                        "description": null,
-                        "ofType": null
-                      }
-                    }
-                  },
-                  "defaultValue": null
-                },
-                {
-                  "name": "filter",
-                  "description": null,
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "EQLRecordFilterActivities",
-                    "description": "EQL record filter for object type Activities",
-                    "ofType": null
-                  },
-                  "defaultValue": null
-                },
-                {
-                  "name": "extendedFilter",
-                  "description": null,
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "EQLRecordChangeFilterActivities",
-                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Activities along with the `Operation`. This allows events to only be emitted if a certain field has change.",
-                    "ofType": null
-                  },
-                  "defaultValue": null
-                }
-              ],
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "description": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "SchemaSubscriptionNotificationActivities",
+                  "name": "SchemaSubscriptionNotificationShifts",
                   "description": null,
                   "ofType": null
                 }
@@ -20811,15 +21076,10 @@
               "name": "Type",
               "description": null,
               "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "description": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "JobTimeConstraintType",
-                  "description": "Valid values are (SLA, Timeslot)",
-                  "ofType": null
-                }
+                "kind": "SCALAR",
+                "name": "JobTimeConstraintType",
+                "description": "Valid values are (SLA, Timeslot)",
+                "ofType": null
               },
               "defaultValue": null
             },
@@ -23791,6 +24051,57 @@
               "deprecationReason": null
             },
             {
+              "name": "Jobs",
+              "description": null,
+              "args": [
+                {
+                  "name": "filter",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLQueryFilterJobs",
+                    "description": "EQL query filter for object type Jobs",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "orderBy",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLOrderByClauseJobs",
+                    "description": "EQL order by clause for object type Jobs",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                }
+              ],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "LIST",
+                  "name": null,
+                  "description": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "description": null,
+                    "ofType": {
+                      "kind": "OBJECT",
+                      "name": "Jobs",
+                      "description": null,
+                      "ofType": null
+                    }
+                  }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "LastModifiedBy",
               "description": null,
               "args": [],
@@ -24294,6 +24605,60 @@
               "deprecationReason": null
             },
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "End",
               "description": null,
               "args": [],
@@ -24333,6 +24698,60 @@
                 "name": "BigDecimal",
                 "description": "The `BigDecimal` scalar type represents signed fractional values with arbitrary precision.",
                 "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
               },
               "isDeprecated": false,
               "deprecationReason": null
@@ -24676,6 +25095,114 @@
                   "kind": "SCALAR",
                   "name": "ID",
                   "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -25291,6 +25818,42 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "CreatedDate",
               "description": null,
               "args": [],
@@ -25338,6 +25901,60 @@
                   "kind": "SCALAR",
                   "name": "Boolean",
                   "description": "The `Boolean` scalar type represents `true` or `false`.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -25653,6 +26270,60 @@
               "deprecationReason": null
             },
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "FinishTime",
               "description": null,
               "args": [],
@@ -25682,6 +26353,60 @@
                   "kind": "SCALAR",
                   "name": "Boolean",
                   "description": "The `Boolean` scalar type represents `true` or `false`.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -25923,6 +26648,114 @@
                   "kind": "SCALAR",
                   "name": "ID",
                   "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -27980,6 +28813,60 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "Holiday",
               "description": null,
               "args": [],
@@ -28009,6 +28896,60 @@
                   "kind": "SCALAR",
                   "name": "ID",
                   "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -28221,6 +29162,60 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "EndDate",
               "description": null,
               "args": [],
@@ -28302,6 +29297,60 @@
                       "ofType": null
                     }
                   }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
                 }
               },
               "isDeprecated": false,
@@ -28533,6 +29582,60 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "DeclineDescription",
               "description": null,
               "args": [],
@@ -28744,6 +29847,60 @@
                   "kind": "SCALAR",
                   "name": "ID",
                   "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -29605,6 +30762,60 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "Job",
               "description": null,
               "args": [],
@@ -29634,6 +30845,60 @@
                   "kind": "SCALAR",
                   "name": "ID",
                   "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -29895,6 +31160,60 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "Job",
               "description": null,
               "args": [],
@@ -29924,6 +31243,60 @@
                   "kind": "SCALAR",
                   "name": "ID",
                   "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -30185,6 +31558,60 @@
               "deprecationReason": null
             },
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "Description",
               "description": null,
               "args": [],
@@ -30227,6 +31654,60 @@
                   "kind": "SCALAR",
                   "name": "ID",
                   "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -30449,6 +31930,60 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "EndBefore",
               "description": null,
               "args": [],
@@ -30491,6 +32026,60 @@
                   "kind": "SCALAR",
                   "name": "ID",
                   "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -32518,6 +34107,57 @@
               "deprecationReason": null
             },
             {
+              "name": "Activities",
+              "description": null,
+              "args": [
+                {
+                  "name": "filter",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLQueryFilterActivities",
+                    "description": "EQL query filter for object type Activities",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "orderBy",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLOrderByClauseActivities",
+                    "description": "EQL order by clause for object type Activities",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                }
+              ],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "LIST",
+                  "name": null,
+                  "description": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "description": null,
+                    "ofType": {
+                      "kind": "OBJECT",
+                      "name": "Activities",
+                      "description": null,
+                      "ofType": null
+                    }
+                  }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "Address",
               "description": null,
               "args": [],
@@ -32526,6 +34166,60 @@
                 "name": "String",
                 "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.",
                 "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
               },
               "isDeprecated": false,
               "deprecationReason": null
@@ -32552,6 +34246,111 @@
                 "name": "BigDecimal",
                 "description": "The `BigDecimal` scalar type represents signed fractional values with arbitrary precision.",
                 "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "Jobs",
+              "description": null,
+              "args": [
+                {
+                  "name": "filter",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLQueryFilterJobs",
+                    "description": "EQL query filter for object type Jobs",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "orderBy",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLOrderByClauseJobs",
+                    "description": "EQL order by clause for object type Jobs",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                }
+              ],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "LIST",
+                  "name": null,
+                  "description": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "description": null,
+                    "ofType": {
+                      "kind": "OBJECT",
+                      "name": "Jobs",
+                      "description": null,
+                      "ofType": null
+                    }
+                  }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
               },
               "isDeprecated": false,
               "deprecationReason": null
@@ -32660,6 +34459,57 @@
                     "ofType": {
                       "kind": "OBJECT",
                       "name": "LocationResourceScores",
+                      "description": null,
+                      "ofType": null
+                    }
+                  }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "Shifts",
+              "description": null,
+              "args": [
+                {
+                  "name": "filter",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLQueryFilterShifts",
+                    "description": "EQL query filter for object type Shifts",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "orderBy",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLOrderByClauseShifts",
+                    "description": "EQL order by clause for object type Shifts",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                }
+              ],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "LIST",
+                  "name": null,
+                  "description": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "description": null,
+                    "ofType": {
+                      "kind": "OBJECT",
+                      "name": "Shifts",
                       "description": null,
                       "ofType": null
                     }
@@ -33381,6 +35231,60 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "Description",
               "description": null,
               "args": [],
@@ -33418,6 +35322,60 @@
                   "kind": "SCALAR",
                   "name": "Boolean",
                   "description": "The `Boolean` scalar type represents `true` or `false`.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -38139,6 +40097,42 @@
               "deprecationReason": null
             },
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "CreatedDate",
               "description": null,
               "args": [],
@@ -38215,6 +40209,42 @@
                       "ofType": null
                     }
                   }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
                 }
               },
               "isDeprecated": false,
@@ -38465,6 +40495,60 @@
               "deprecationReason": null
             },
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "Description",
               "description": null,
               "args": [],
@@ -38499,6 +40583,60 @@
                 "name": "BigDecimal",
                 "description": "The `BigDecimal` scalar type represents signed fractional values with arbitrary precision.",
                 "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
               },
               "isDeprecated": false,
               "deprecationReason": null
@@ -38773,6 +40911,42 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "CreatedDate",
               "description": null,
               "args": [],
@@ -38810,6 +40984,42 @@
             },
             {
               "name": "JobOfferId",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
               "description": null,
               "args": [],
               "type": {
@@ -39116,6 +41326,114 @@
           "kind": "OBJECT",
           "description": null,
           "fields": [
+            {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
             {
               "name": "Region",
               "description": null,
@@ -40185,7 +42503,97 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
               "description": null,
               "args": [],
               "type": {
@@ -40475,6 +42883,24 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "CreatedById",
               "description": null,
               "args": [],
@@ -40653,6 +43079,24 @@
                   "kind": "SCALAR",
                   "name": "ID",
                   "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
                   "ofType": null
                 }
               },
@@ -41009,6 +43453,60 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "End",
               "description": null,
               "args": [],
@@ -41017,6 +43515,60 @@
                 "name": "Instant",
                 "description": "An instantaneous point on the time-line",
                 "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
               },
               "isDeprecated": false,
               "deprecationReason": null
@@ -41245,6 +43797,42 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "CreatedDate",
               "description": null,
               "args": [],
@@ -41256,6 +43844,42 @@
                   "kind": "SCALAR",
                   "name": "Instant",
                   "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
                   "ofType": null
                 }
               },
@@ -41656,6 +44280,114 @@
               "deprecationReason": null
             },
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "Resource",
               "description": null,
               "args": [],
@@ -41897,6 +44629,42 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "CreatedDate",
               "description": null,
               "args": [],
@@ -41923,6 +44691,60 @@
                 "name": "Instant",
                 "description": "An instantaneous point on the time-line",
                 "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
               },
               "isDeprecated": false,
               "deprecationReason": null
@@ -42220,6 +45042,57 @@
               "deprecationReason": null
             },
             {
+              "name": "Activities",
+              "description": null,
+              "args": [
+                {
+                  "name": "filter",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLQueryFilterActivities",
+                    "description": "EQL query filter for object type Activities",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "orderBy",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLOrderByClauseActivities",
+                    "description": "EQL order by clause for object type Activities",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                }
+              ],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "LIST",
+                  "name": null,
+                  "description": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "description": null,
+                    "ofType": {
+                      "kind": "OBJECT",
+                      "name": "Activities",
+                      "description": null,
+                      "ofType": null
+                    }
+                  }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "Alias",
               "description": null,
               "args": [],
@@ -42323,6 +45196,60 @@
                 "name": "String",
                 "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.",
                 "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
               },
               "isDeprecated": false,
               "deprecationReason": null
@@ -42456,6 +45383,60 @@
                       "ofType": null
                     }
                   }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
                 }
               },
               "isDeprecated": false,
@@ -42724,6 +45705,57 @@
                     "ofType": {
                       "kind": "OBJECT",
                       "name": "ResourceRegions",
+                      "description": null,
+                      "ofType": null
+                    }
+                  }
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "ResourceShifts",
+              "description": null,
+              "args": [
+                {
+                  "name": "filter",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLQueryFilterResourceShifts",
+                    "description": "EQL query filter for object type ResourceShifts",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "orderBy",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLOrderByClauseResourceShifts",
+                    "description": "EQL order by clause for object type ResourceShifts",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                }
+              ],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "LIST",
+                  "name": null,
+                  "description": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "description": null,
+                    "ofType": {
+                      "kind": "OBJECT",
+                      "name": "ResourceShifts",
                       "description": null,
                       "ofType": null
                     }
@@ -43019,6 +46051,114 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "Shift",
               "description": null,
               "args": [],
@@ -43260,6 +46400,42 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "CreatedDate",
               "description": null,
               "args": [],
@@ -43271,6 +46447,42 @@
                   "kind": "SCALAR",
                   "name": "Instant",
                   "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
                   "ofType": null
                 }
               },
@@ -43585,6 +46797,114 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "Required",
               "description": null,
               "args": [],
@@ -43857,6 +47177,60 @@
           "description": null,
           "fields": [
             {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "DisplayName",
               "description": null,
               "args": [],
@@ -43917,6 +47291,60 @@
                   "kind": "SCALAR",
                   "name": "Boolean",
                   "description": "The `Boolean` scalar type represents `true` or `false`.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
                   "ofType": null
                 }
               },
@@ -44334,6 +47762,114 @@
                 "name": "TagClassification",
                 "description": "Valid values are (Global, Human, Asset)",
                 "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "CreatedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedBy",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "Users",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedById",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "ID",
+                  "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "LastModifiedDate",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Instant",
+                  "description": "An instantaneous point on the time-line",
+                  "ofType": null
+                }
               },
               "isDeprecated": false,
               "deprecationReason": null
@@ -45194,60 +48730,6 @@
               },
               "isDeprecated": false,
               "deprecationReason": null
-            },
-            {
-              "name": "onOperation",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "description": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "Boolean",
-                  "description": "The `Boolean` scalar type represents `true` or `false`.",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": true,
-              "deprecationReason": "Use `locations`."
-            },
-            {
-              "name": "onFragment",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "description": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "Boolean",
-                  "description": "The `Boolean` scalar type represents `true` or `false`.",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": true,
-              "deprecationReason": "Use `locations`."
-            },
-            {
-              "name": "onField",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "description": null,
-                "ofType": {
-                  "kind": "SCALAR",
-                  "name": "Boolean",
-                  "description": "The `Boolean` scalar type represents `true` or `false`.",
-                  "ofType": null
-                }
-              },
-              "isDeprecated": true,
-              "deprecationReason": "Use `locations`."
             }
           ],
           "inputFields": null,
@@ -45302,6 +48784,12 @@
             {
               "name": "INLINE_FRAGMENT",
               "description": "Location adjacent to an inline fragment.",
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "VARIABLE_DEFINITION",
+              "description": "Location adjacent to a variable definition.",
               "isDeprecated": false,
               "deprecationReason": null
             },
@@ -45644,6 +49132,19 @@
           "kind": "OBJECT",
           "description": "A GraphQL Schema defines the capabilities of a GraphQL server. It exposes all available types and directives on the server, as well as the entry points for query, mutation, and subscription operations.",
           "fields": [
+            {
+              "name": "description",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
             {
               "name": "types",
               "description": "A list of all types supported by this server.",
