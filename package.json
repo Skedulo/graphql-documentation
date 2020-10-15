@@ -17,6 +17,7 @@
     "url": "https://github.com/Skedulo/graphql-documentation/issues"
   },
   "graphdoc": {
+    "endpoint": "https://api.skedulo.com/graphql",
     "logo": "<a href=\"https://developer.skedulo.com/docs\"><img src = \"https://github.com/Skedulo/graphql-documentation/blob/master/Skedulo_Logo_Small_Blue.png?raw=true\"/></a>",
     "favicon": "<img src = \"https://github.com/Skedulo/graphql-documentation/blob/master/favicon.png?raw=true\"/>",
     "schemaFile": "./graphql.json",
