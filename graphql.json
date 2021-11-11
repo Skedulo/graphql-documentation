@@ -20,7 +20,7 @@
         {
           "name": "EQLRecordChangeFilterAccounts",
           "kind": "SCALAR",
-          "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Accounts along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+          "description": "An EQL filter string, which can access the Current and Previous values of the Accounts object and the Operation that was performed. This allows events to only be emitted if a certain field has change.",
           "fields": null,
           "inputFields": null,
           "interfaces": null,
@@ -30,7 +30,7 @@
         {
           "name": "EQLRecordChangeFilterActivities",
           "kind": "SCALAR",
-          "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Activities along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+          "description": "An EQL filter string, which can access the Current and Previous values of the Activities object and the Operation that was performed. This allows events to only be emitted if a certain field has change.",
           "fields": null,
           "inputFields": null,
           "interfaces": null,
@@ -40,7 +40,7 @@
         {
           "name": "EQLRecordChangeFilterAvailabilities",
           "kind": "SCALAR",
-          "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Availabilities along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+          "description": "An EQL filter string, which can access the Current and Previous values of the Availabilities object and the Operation that was performed. This allows events to only be emitted if a certain field has change.",
           "fields": null,
           "inputFields": null,
           "interfaces": null,
@@ -50,7 +50,7 @@
         {
           "name": "EQLRecordChangeFilterContacts",
           "kind": "SCALAR",
-          "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Contacts along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+          "description": "An EQL filter string, which can access the Current and Previous values of the Contacts object and the Operation that was performed. This allows events to only be emitted if a certain field has change.",
           "fields": null,
           "inputFields": null,
           "interfaces": null,
@@ -60,7 +60,7 @@
         {
           "name": "EQLRecordChangeFilterJobAllocations",
           "kind": "SCALAR",
-          "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type JobAllocations along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+          "description": "An EQL filter string, which can access the Current and Previous values of the JobAllocations object and the Operation that was performed. This allows events to only be emitted if a certain field has change.",
           "fields": null,
           "inputFields": null,
           "interfaces": null,
@@ -70,7 +70,7 @@
         {
           "name": "EQLRecordChangeFilterJobs",
           "kind": "SCALAR",
-          "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Jobs along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+          "description": "An EQL filter string, which can access the Current and Previous values of the Jobs object and the Operation that was performed. This allows events to only be emitted if a certain field has change.",
           "fields": null,
           "inputFields": null,
           "interfaces": null,
@@ -80,7 +80,7 @@
         {
           "name": "EQLRecordChangeFilterShifts",
           "kind": "SCALAR",
-          "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Shifts along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+          "description": "An EQL filter string, which can access the Current and Previous values of the Shifts object and the Operation that was performed. This allows events to only be emitted if a certain field has change.",
           "fields": null,
           "inputFields": null,
           "interfaces": null,
@@ -2229,17 +2229,6 @@
               "defaultValue": null
             },
             {
-              "name": "Name",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
               "name": "ProductId",
               "description": null,
               "type": {
@@ -3295,17 +3284,6 @@
               "defaultValue": null
             },
             {
-              "name": "Name",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
               "name": "Pattern",
               "description": null,
               "type": {
@@ -3845,17 +3823,6 @@
                   "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
                   "ofType": null
                 }
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "Name",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.",
-                "ofType": null
               },
               "defaultValue": null
             },
@@ -36065,7 +36032,7 @@
                   "type": {
                     "kind": "SCALAR",
                     "name": "EQLRecordChangeFilterActivities",
-                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Activities along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+                    "description": "An EQL filter string, which can access the Current and Previous values of the Activities object and the Operation that was performed. This allows events to only be emitted if a certain field has change.",
                     "ofType": null
                   },
                   "defaultValue": null
@@ -36127,7 +36094,7 @@
                   "type": {
                     "kind": "SCALAR",
                     "name": "EQLRecordChangeFilterJobAllocations",
-                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type JobAllocations along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+                    "description": "An EQL filter string, which can access the Current and Previous values of the JobAllocations object and the Operation that was performed. This allows events to only be emitted if a certain field has change.",
                     "ofType": null
                   },
                   "defaultValue": null
@@ -36140,130 +36107,6 @@
                 "ofType": {
                   "kind": "OBJECT",
                   "name": "SchemaSubscriptionNotificationJobAllocations",
-                  "description": null,
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "schemaContacts",
-              "description": null,
-              "args": [
-                {
-                  "name": "operation",
-                  "description": null,
-                  "type": {
-                    "kind": "LIST",
-                    "name": null,
-                    "description": null,
-                    "ofType": {
-                      "kind": "NON_NULL",
-                      "name": null,
-                      "description": null,
-                      "ofType": {
-                        "kind": "ENUM",
-                        "name": "SchemaSubscriptionOp",
-                        "description": null,
-                        "ofType": null
-                      }
-                    }
-                  },
-                  "defaultValue": null
-                },
-                {
-                  "name": "filter",
-                  "description": null,
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "EQLRecordFilterContacts",
-                    "description": "EQL record filter for object type Contacts",
-                    "ofType": null
-                  },
-                  "defaultValue": null
-                },
-                {
-                  "name": "extendedFilter",
-                  "description": null,
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "EQLRecordChangeFilterContacts",
-                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Contacts along with the `Operation`. This allows events to only be emitted if a certain field has change.",
-                    "ofType": null
-                  },
-                  "defaultValue": null
-                }
-              ],
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "description": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "SchemaSubscriptionNotificationContacts",
-                  "description": null,
-                  "ofType": null
-                }
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "schemaAvailabilities",
-              "description": null,
-              "args": [
-                {
-                  "name": "operation",
-                  "description": null,
-                  "type": {
-                    "kind": "LIST",
-                    "name": null,
-                    "description": null,
-                    "ofType": {
-                      "kind": "NON_NULL",
-                      "name": null,
-                      "description": null,
-                      "ofType": {
-                        "kind": "ENUM",
-                        "name": "SchemaSubscriptionOp",
-                        "description": null,
-                        "ofType": null
-                      }
-                    }
-                  },
-                  "defaultValue": null
-                },
-                {
-                  "name": "filter",
-                  "description": null,
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "EQLRecordFilterAvailabilities",
-                    "description": "EQL record filter for object type Availabilities",
-                    "ofType": null
-                  },
-                  "defaultValue": null
-                },
-                {
-                  "name": "extendedFilter",
-                  "description": null,
-                  "type": {
-                    "kind": "SCALAR",
-                    "name": "EQLRecordChangeFilterAvailabilities",
-                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Availabilities along with the `Operation`. This allows events to only be emitted if a certain field has change.",
-                    "ofType": null
-                  },
-                  "defaultValue": null
-                }
-              ],
-              "type": {
-                "kind": "NON_NULL",
-                "name": null,
-                "description": null,
-                "ofType": {
-                  "kind": "OBJECT",
-                  "name": "SchemaSubscriptionNotificationAvailabilities",
                   "description": null,
                   "ofType": null
                 }
@@ -36313,7 +36156,7 @@
                   "type": {
                     "kind": "SCALAR",
                     "name": "EQLRecordChangeFilterJobs",
-                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Jobs along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+                    "description": "An EQL filter string, which can access the Current and Previous values of the Jobs object and the Operation that was performed. This allows events to only be emitted if a certain field has change.",
                     "ofType": null
                   },
                   "defaultValue": null
@@ -36326,6 +36169,68 @@
                 "ofType": {
                   "kind": "OBJECT",
                   "name": "SchemaSubscriptionNotificationJobs",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "schemaAvailabilities",
+              "description": null,
+              "args": [
+                {
+                  "name": "operation",
+                  "description": null,
+                  "type": {
+                    "kind": "LIST",
+                    "name": null,
+                    "description": null,
+                    "ofType": {
+                      "kind": "NON_NULL",
+                      "name": null,
+                      "description": null,
+                      "ofType": {
+                        "kind": "ENUM",
+                        "name": "SchemaSubscriptionOp",
+                        "description": null,
+                        "ofType": null
+                      }
+                    }
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "filter",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLRecordFilterAvailabilities",
+                    "description": "EQL record filter for object type Availabilities",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "extendedFilter",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLRecordChangeFilterAvailabilities",
+                    "description": "An EQL filter string, which can access the Current and Previous values of the Availabilities object and the Operation that was performed. This allows events to only be emitted if a certain field has change.",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                }
+              ],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "SchemaSubscriptionNotificationAvailabilities",
                   "description": null,
                   "ofType": null
                 }
@@ -36375,7 +36280,7 @@
                   "type": {
                     "kind": "SCALAR",
                     "name": "EQLRecordChangeFilterShifts",
-                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Shifts along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+                    "description": "An EQL filter string, which can access the Current and Previous values of the Shifts object and the Operation that was performed. This allows events to only be emitted if a certain field has change.",
                     "ofType": null
                   },
                   "defaultValue": null
@@ -36437,7 +36342,7 @@
                   "type": {
                     "kind": "SCALAR",
                     "name": "EQLRecordChangeFilterAccounts",
-                    "description": "An EQL filter string that has access to the `Current` and `Previous` values for the object type Accounts along with the `Operation`. This allows events to only be emitted if a certain field has change.",
+                    "description": "An EQL filter string, which can access the Current and Previous values of the Accounts object and the Operation that was performed. This allows events to only be emitted if a certain field has change.",
                     "ofType": null
                   },
                   "defaultValue": null
@@ -36450,6 +36355,68 @@
                 "ofType": {
                   "kind": "OBJECT",
                   "name": "SchemaSubscriptionNotificationAccounts",
+                  "description": null,
+                  "ofType": null
+                }
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "schemaContacts",
+              "description": null,
+              "args": [
+                {
+                  "name": "operation",
+                  "description": null,
+                  "type": {
+                    "kind": "LIST",
+                    "name": null,
+                    "description": null,
+                    "ofType": {
+                      "kind": "NON_NULL",
+                      "name": null,
+                      "description": null,
+                      "ofType": {
+                        "kind": "ENUM",
+                        "name": "SchemaSubscriptionOp",
+                        "description": null,
+                        "ofType": null
+                      }
+                    }
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "filter",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLRecordFilterContacts",
+                    "description": "EQL record filter for object type Contacts",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "extendedFilter",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLRecordChangeFilterContacts",
+                    "description": "An EQL filter string, which can access the Current and Previous values of the Contacts object and the Operation that was performed. This allows events to only be emitted if a certain field has change.",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                }
+              ],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "OBJECT",
+                  "name": "SchemaSubscriptionNotificationContacts",
                   "description": null,
                   "ofType": null
                 }
@@ -38616,17 +38583,6 @@
               "defaultValue": null
             },
             {
-              "name": "Name",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
               "name": "ProductId",
               "description": null,
               "type": {
@@ -39761,17 +39717,6 @@
               "defaultValue": null
             },
             {
-              "name": "Name",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
               "name": "Pattern",
               "description": null,
               "type": {
@@ -40352,17 +40297,6 @@
                 "kind": "SCALAR",
                 "name": "ID",
                 "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "Name",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.",
                 "ofType": null
               },
               "defaultValue": null
@@ -45245,17 +45179,6 @@
               "defaultValue": null
             },
             {
-              "name": "Name",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
               "name": "ProductId",
               "description": null,
               "type": {
@@ -46410,17 +46333,6 @@
               "defaultValue": null
             },
             {
-              "name": "Name",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
               "name": "Pattern",
               "description": null,
               "type": {
@@ -47037,17 +46949,6 @@
                   "description": "The `ID` scalar type represents a unique identifier, often used to refetch an object or as key for a cache. The ID type appears in a JSON response as a String; however, it is not intended to be human-readable. When expected as an input type, any string (such as `\"4\"`) or integer (such as `4`) input value will be accepted as an ID.",
                   "ofType": null
                 }
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "Name",
-              "description": null,
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "description": "The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.",
-                "ofType": null
               },
               "defaultValue": null
             },
@@ -77723,6 +77624,57 @@
                 "name": "Int",
                 "description": "The `Int` scalar type represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1.",
                 "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "ResourceActivities",
+              "description": null,
+              "args": [
+                {
+                  "name": "filter",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLQueryFilterActivityResources",
+                    "description": "EQL query filter for object type ActivityResources",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "orderBy",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "EQLOrderByClauseActivityResources",
+                    "description": "EQL order by clause for object type ActivityResources",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                }
+              ],
+              "type": {
+                "kind": "NON_NULL",
+                "name": null,
+                "description": null,
+                "ofType": {
+                  "kind": "LIST",
+                  "name": null,
+                  "description": null,
+                  "ofType": {
+                    "kind": "NON_NULL",
+                    "name": null,
+                    "description": null,
+                    "ofType": {
+                      "kind": "OBJECT",
+                      "name": "ActivityResources",
+                      "description": null,
+                      "ofType": null
+                    }
+                  }
+                }
               },
               "isDeprecated": false,
               "deprecationReason": null
